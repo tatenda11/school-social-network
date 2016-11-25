@@ -1,0 +1,211 @@
+.clear{
+	clear: both;
+	width: 100%;
+}
+.spacer{
+	margin-left: 1px;
+}
+.move-up{
+	margin-top: -22px;
+	margin-right: 1%;
+}
+.blue{
+	color: blue;
+}
+#profile-holder{
+	width: 85%;
+	float: left;
+	margin-left: 3%;
+	height: auto;
+	margin-top: -5px;
+	background-color:#f3f3f3;
+}
+.thumb-display{
+	height: 60px;
+	width: 60px;
+	float: left;
+	padding: 0.4%;
+}
+.thumb-display:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+#profile-holder #header-area{
+	width: 100%;
+	background-image: url(../imgs/kam.jpg);
+	background-color: #f3f3f3;
+	background-attachment: fixed;
+	height: 220px;
+	padding: 1%;
+}
+.posted-wraper{
+	width: 80%;
+	float: left;
+	margin-top: 8px;
+	margin-left: 2%;
+}
+.posted-wraper img{
+	margin-bottom: 5px;
+	max-width: 100%;
+}
+.posted-wraper p{
+	width: 85%;
+}
+#profile-holder #header-area #pro-image-holder{
+	background-color: #ccc;
+	width: 200px;
+	height: 190px;
+	margin-left: 3%;
+	float: left;
+	margin-top:50px;
+	border: 3px solid #ccc;
+	overflow: hidden; 
+	z-index: 1000 !important;
+}
+#profile-holder #header-area #pro-image-holder img:hover{
+	opacity: 0.7;
+}
+#profile-holder #header-area #name-text{
+	color:#fff;
+	font-size: 30px;
+	float: right;
+	margin-top: 150px;
+	margin-left: 2%;	
+}
+#profile-holder #action-holder{
+	clear:both;
+	width:100%;
+	float: left;
+	height:auto;
+}
+#profile-holder #left-nav{
+	width: 30%;
+	background-color: #fff;
+	border-top: 17px solid #f3f3f3;
+	float: left;
+	height: auto;
+}
+#profile-holder #left-nav #intro{
+	width: 100%;
+	padding: 2%;
+	float: left;
+	height: auto;
+	border-bottom: 17px solid #f3f3f3;
+}
+#profile-holder #left-nav #profile-data{
+	width: 100%;
+	padding: 0%;
+	height: auto;
+	border-bottom: 17px solid #f3f3f3;
+}
+#profile-holder #left-nav #intro h3{
+	margin-left: 0%;
+	font-size: 15px;
+}
+#profile-holder #left-nav #profile-data h3{
+	margin-left: -13%;
+	font-size: 15px;
+
+}
+#profile-holder #left-nav #intro p{
+	font-weight: lighter;
+	font-size: 13px;
+}
+#profile-holder #left-nav #intro ul li{
+	font-weight: lighter;
+	margin-left: -14%;
+	list-style: none;
+	font-size: 13px;
+	line-height: none;	
+}
+/*start right-nav*/
+#profile-holder #right-nav{
+	width: 55%;
+	border-top: 17px solid #f3f3f3;
+	border-left: 17px solid #f3f3f3;
+	float: left;
+	overflow: hidden;
+	background-color: #fff;
+	height: auto;
+	min-height: 700px;
+}
+/*posting form*/
+#right-nav #profile-post-container{
+	width: 100%;
+	height: 50px;
+	border-bottom: 17px solid #f3f3f3;
+}
+#right-nav #post-area{
+	width: 100%;
+	margin-left: 0%;
+}
+#right-nav #post-area h3{
+	margin-left: 3%;
+	font-size: 16px;
+	font-weight: lighter;
+} 
+
+/********************************************MINOR ADJUSTMENTS*************************************/
+
+
+/*******************************************END ADJUSTMENTS**************************************8*/
+/*End right nav*/
+@media only screen and (min-width: 150px) and (max-width: 600px){
+
+#profile-holder{
+	width: 100%;
+	background-color: #fff;
+	padding-top: 26px;
+}
+#profile-holder #header-area{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#profile-holder #header-area #pro-image-holder{
+	clear: both;
+	float: none;
+	height: auto;
+	margin: auto;
+}
+#profile-holder #header-area #name-text{
+	font-size: 18px;
+	clear: both;
+	float: none;
+	margin: auto;
+}
+.posted-wraper{
+	width: 80%;
+	float: left;
+	margin-top: 8px;
+	margin-left: 2%;
+}
+#profile-holder #action-holder{
+	clear:both;
+	width:100%;
+	margin-left: 0%;
+	margin-top: 30px;
+}
+#profile-holder #left-nav{
+	width: 100%;
+	float: none;
+	clear: both;
+	height: auto;
+}
+#profile-holder #right-nav{
+	width: 100%;
+	float: none;
+	clear: both;
+	border-left: none;
+	height: auto;
+}
+.posted-wraper{
+	width: 100%;
+	float: none;
+	clear: both;
+	margin-left: 0%;
+}
+#into li{
+	margin-left: 0%;
+}
+}
